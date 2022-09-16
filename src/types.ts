@@ -1338,7 +1338,7 @@ export interface KaboomCtx {
 	 * })
 	 * ```
 	 */
-	loop(t: number, action: () => void): EventCanceller,
+	loop(n: number, action: () => void): EventCanceller,
 	Timer: typeof Timer,
 	/**
 	 * Play a piece of audio.
